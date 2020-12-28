@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./style.scss"
 
-import Child_component from "./child_component.jsx"
+import Child_Component from "./child_component.jsx"
 
 export default class page1 extends Component {
 
@@ -73,8 +73,7 @@ export default class page1 extends Component {
 <p className="p">Current color: {this.state.child_style && this.state.child_style.color?this.state.child_style.color:""}</p>
                </center> <br />
 
-                
-               <center> <Child_component child_style={this.state.child_style}/></center>
+               <center> <Child_Component child_style={this.state.child_style}/></center>
 
                
 
