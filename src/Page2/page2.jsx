@@ -66,7 +66,7 @@ export default class page2 extends Component {
         return (
             <div className="page2">
                 <center><h1>Page2</h1>
-                <a href="" className="a">Open page1</a><br /><br />
+                <a href="" >Open page1</a><br /><br />
                 <input type="button" className="btn btn-dark" value="test works" onClick={this.test_func.bind(this, 10)} /><br /><br />
                 <input type="button" className="btn btn-dark" value="test2 not work" onClick={this.test4_func} /><br /><br />
                 <input type="button" className="btn btn-dark" value="test3 work" onClick={this.test2_func} /><br /><br />
